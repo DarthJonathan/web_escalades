@@ -1,0 +1,46 @@
+<change log>
+
+jona
+{
+changed page 3, added class 'tgl'
+
+added images, tanggal.png and tiket.png
+
+sidebar added, data-scroll-nav
+}
+
+jona
+{
+added image, tutup.png;
+
+change css rule page2, width of circle to 130px;
+
+change extension to .html instead of .php-> FOR REASONS :D
+
+change global rule of .tagline to 1%;
+}
+
+candra {
+	removed h3 from page 2
+	
+	change stellarjs option on page 2
+	
+	fixing animation of moving .container left by jQuery on nav.js
+	
+	fixing page 2 resizing problem with fixed ratio tuning
+	
+	fixing container on page 2
+	
+	data-stellar-ratio added to page 2 again
+	
+	.tagline padding-top 1% bug removed
+	
+	page3 section resize based on page3content height + 30px through javascript
+	
+	adding stellar ratio to page3 content 
+}
+
+jona
+{
+	change page2,3,and 4 height to 110% for responsiveness purposes
+}

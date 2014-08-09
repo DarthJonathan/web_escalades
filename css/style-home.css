@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Key Frames*/
+
+@-webkit-keyframes zoom-out
+{
+	0%		{opacity:0}
+	25%		{opacity:0.2}
+	50%		{opacity:0.5}
+	75%		{opacity:0.7}
+	100%	{opacity:1}
+}
+
+/*Fonts*/
+
+@font-face
+{
+	font-family:"gothamL";
+	src:url(fonts/GothamNarrow-XLight.otf);
+}
+
+@font-face
+{
+	font-family:"gothamT";
+	src:url(fonts/GothamNarrow-Thin.otf);
+}
+
+@fonr-face
+{
+	font-family:"gothamB";
+	src:url(fonts/GothamNarrow-Book.otf);
+}
+
+/*background css*/
+
+#background-vid
+{
+	opacity:0.7;
+	float:left;
+	display:block;
+	z-index:-100;
+}
+
+#vidIndex
+{
+	z-index:-1000;
+	position:absolute;
+	vertical-align:baseline;
+	overflow-y:hidden;
+}
+
+
+/*begin css*/
+
+body
+{
+	padding:0;
+	margin:0;
+	background:F5F5F5;
+	font-family:"gothamT";
+	overflow-x:hidden;
+}
+
+/*Page 1*/
+
+#page1, #page2, #page3
+{
+	width:100%;
+	min-height : 100%;
+	background-attachment:fixed;
+	position:relative;
+}
+
+.pageone
+{
+	position:relative !important;
+	text-align:center;
+	margin-top:5%;
+	background-attachment:fixed;
+}
+
+#logo-esc
+{
+	-webkit-animation:zoom-out;
+	-webkit-animation-duration:3s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode:forwards;
+	margin-left:1em;
+	margin-bottom:-2em;
+}
+
+#logo-rev
+{
+	-webkit-animation:zoom-out;
+	-webkit-animation-duration:3s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-play-state: running;
+	-webkit-animation-delay:1s;
+	-webkit-animation-fill-mode:forwards;
+	margin-top:1em;
+	margin-bottom:4em;
+}
+
+#sosmed
+{
+	opacity:1;
+	text-align:center;
+}
+
+#sosmed img:hover
+{
+	opacity:0.8;
+	-webkit-transition:all 0.3s ease;
+}
+
+#sosmed ul
+{
+	list-style:none;
+	margin-left:-40px;
+}
+
+#sosmed ul li
+{
+	display:inline;
+}
+
+#sosmed ul li a
+{
+	text-decoration: none;
+	padding: .5em;
+}
+
+#page1 {
+	background:#333;
+}
+
+/* Page 2 */
+#page2
+{
+	background : white; 
+	width:100%;
+	height:150%;
+}
+
+.circle_button_space {		
+	float : left;
+}
+
+.circle_button {
+	display: table-cell;
+
+	text-decoration : none;	
+	color : white;
+
+	text-align : center;
+	vertical-align : middle;
+
+	background : #FF0000;
+	border : 1px solid white;
+}
+
+.circle_button:hover {
+	background : white;
+	border : 1px solid red;
+	color : red;
+}
+
+#page2_container {
+	margin : 0 auto;
+}
+
+
+
+
+
+.tagline
+{
+	font-family:"gothamL";
+}
+
+.no-pad
+{
+	padding:0;
+	margin:0;
+}
+
+h1
+{
+	font-size:55px;
+}
+
+h2
+{
+	font-size:40px;
+}
+
+h3
+{
+	font-size:24px;
+}
+
+h4
+{
+	font-size:18px;
+}
+
+#games
+{
+	text-align:center;
+}
+
+/* Page 3 */
+
+#page3
+{
+	width:100%;
+	height:100%;
+	background:#ccc;
+}
+
+tgl
+{
+	display:inline;
+}
+
+#seperator
+{
+	border-bottom-right-radius:1px;
+	border-bottom-width:1px;
+	border-color:#ffffff;
+}
+
+/* Page 4 */
+
+#page4
+{
+	width:100%;
+	height:110%;
+}

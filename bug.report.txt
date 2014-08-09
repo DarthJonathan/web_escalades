@@ -1,0 +1,22 @@
+essential bug {
+	page1 element doesn't position right on small resolution (Proposed Solution : add different margin across different screen resolution)
+
+	page3 background dones't scale on small resolution
+	
+}
+
+non-essential bug {
+	there appear to be some space between page1 and page2 and I don't know why (SOLVED)
+	stellarjs doesn't work properly after resize ( SOLVED )
+	up down arrow for scrollit plugin doesn't work sometimes (SOLVED)
+		//future note : don't add margin in section it causes bug in scrollit 
+		BUG REAPPEAR 
+}
+
+
+
+essential bug
+{
+	page 2 left-padding on small resolution screen
+	page 2 causes overflow on right side of the screen -> causing backgrounds doesn’t scale right on small resolution screen
+}
