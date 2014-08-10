@@ -38,6 +38,7 @@
 {
 	opacity:0.7;
 	display:block;
+	overflow : hidden;
 }
 
 #vidIndex
