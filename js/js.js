@@ -1,7 +1,5 @@
 function adjustScreen(){
-	$("#vidIndex").css({
-		width : window.innerWidth 
-	});
+	$("#vidIndex").attr( "width", window.innerWidth );
 	
 	$("#background-vid").css({ 
 		height : window.innerHeight, 

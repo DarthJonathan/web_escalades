@@ -37,9 +37,7 @@
 #background-vid
 {
 	opacity:0.7;
-	float:left;
 	display:block;
-	z-index:-100;
 }
 
 #vidIndex
@@ -58,7 +56,7 @@ body
 	padding:0;
 	margin:0;
 	background:F5F5F5;
-	font-family:"gothamT";
+	font-family : "gothamT", Calibri, "Segoe UI";
 	overflow-x:hidden;
 }
 
@@ -134,6 +132,7 @@ body
 
 #page1 {
 	background:#333;
+	z-index : -100;
 }
 
 /* Page 2 */
@@ -196,7 +195,7 @@ body
 
 .tagline
 {
-	font-family:"gothamL";
+	font-family:"gothamL", Calibri, "Segoe UI";
 }
 
 .no-pad
