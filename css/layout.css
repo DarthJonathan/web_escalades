@@ -57,11 +57,6 @@
 		{
 			display:none;
 		}
-		
-		.pageone
-		{
-			margin-top:20%;
-		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -70,16 +65,6 @@
 		#background-vid
 		{
 			display:none;
-		}
-		
-		.pageone
-		{
-			margin-top:33%;
-		}
-		
-		#logo-esc
-		{
-			margin-bottom:.1em;
 		}
 	}
 

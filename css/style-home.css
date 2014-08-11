@@ -82,30 +82,39 @@ body
 #logo-esc
 {
 	-webkit-animation:zoom-out;
-	-webkit-animation-duration:3s;
+	-webkit-animation-duration:1s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-play-state: running;
 	-webkit-animation-fill-mode:forwards;
-	margin-left:1em;
-	margin-bottom:-2em;
+	width : 7%;
+	display : block;
+	margin : 0 auto;
 }
 
 #logo-rev
 {
 	-webkit-animation:zoom-out;
-	-webkit-animation-duration:3s;
+	-webkit-animation-duration:1s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-play-state: running;
-	-webkit-animation-delay:1s;
+	-webkit-animation-delay:0.4s;
 	-webkit-animation-fill-mode:forwards;
-	margin-top:1em;
-	margin-bottom:4em;
+	width : 45%;
+	display : block;
+	margin : 0 auto;
+	margin-top : -5%;
 }
 
 #sosmed
 {
+	margin-top : 5%;
 	opacity:1;
 	text-align:center;
+	display : block;
+}
+
+#sosmed  img{
+	width : 5%;
 }
 
 #sosmed img:hover
@@ -117,7 +126,6 @@ body
 #sosmed ul
 {
 	list-style:none;
-	margin-left:-40px;
 }
 
 #sosmed ul li
@@ -128,7 +136,7 @@ body
 #sosmed ul li a
 {
 	text-decoration: none;
-	padding: .5em;
+	padding: 1%;
 }
 
 #page1 {
