@@ -1,6 +1,6 @@
 (function(){
 	function adjustPage2Element(){
-		var gw = window.innerWidth;
+		var gw = Math.min( window.innerWidth, $("#page2format").width() );
 		var gh = window.innerHeight;
 		
 		
