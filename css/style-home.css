@@ -73,10 +73,10 @@ body
 
 .pageone
 {
-	position:relative !important;
 	text-align:center;
-	margin-top:5%;
 	background-attachment:fixed;
+	display : table-cell;
+	height : 80%;
 }
 
 #logo-esc
