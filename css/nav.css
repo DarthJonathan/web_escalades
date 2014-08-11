@@ -112,8 +112,8 @@ div#content div.menu-trigger {
   z-index:100;
   top: 10px;
   left: 10px;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   background: #dfe5eb;
   cursor: pointer;
   border-radius: 5px;
@@ -125,17 +125,17 @@ div#content div.menu-trigger {
 div#content div.menu-trigger:before {
   content: '\e801';
   display: inline-block;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   color: black;
   font-family: "ico";
   font-style: normal;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: normal;
   font-variant: normal;
   text-align: center;
   text-transform: none;
-  line-height: 36px;
+  line-height: 50px;
   z-index:1000;
 }
 
