@@ -2,30 +2,26 @@
   Slidemenu
 */
 (function() {
-	var $body = document.body
-	, $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+	var $body = $(document.body)
 
-	if ( typeof $menu_trigger !== 'undefined' ) {
-		$menu_trigger.addEventListener('click', function() {
-			if( $body.className == 'menu-active' ){
-				$(".container").animate({  
-					left: 0
-				}, {
-					duration : 300
-				});
-				$body.className = '';
-			}
-			else {
-				$(".container").animate({  
-					opacity:1
-				}, {
-					duration : 300
-				});
-				$body.className = 'menu-active';
-			}
+	$('.menu-trigger').on('click', function() {
+		if( $body.hasClass('menu-active') ){
+			$(".container").animate({  
+				left: 0
+			}, {
+				duration : 300
+			});
+			$body.removeClass('menu-active');
+		}
+		else {
+			$(".container").animate({  
+				opacity:1
+			}, {
+				duration : 300
+			});
+			$body.addClass('menu-active');
+		}
 
-//			$body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
-		});
-	}
+	});
 
 }).call(this);
