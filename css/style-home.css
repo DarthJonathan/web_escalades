@@ -156,6 +156,13 @@ body
 	width : 5%;
 }
 
+@media (max-width:768px)
+{
+	#sosmed  img{
+	width : 10%;
+}
+}
+
 #sosmed img:hover
 {
 	opacity:0.8;
