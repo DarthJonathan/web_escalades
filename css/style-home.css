@@ -101,15 +101,11 @@ body
 	margin : 0 auto;
 }
 
-@media (max-width:690px)
+@media (max-width:768px)
 {
 	#logo-esc
-		{
-			width:12%
-		}
-	#logo-rev
 	{
-		width:65%;
+		width:16%
 	}
 }
 
@@ -137,6 +133,14 @@ body
 	display : block;
 	margin : 0 auto;
 	margin-top : -5%;
+}
+
+@media (max-width:768px)
+{
+	#logo-rev
+	{
+		width:75%;
+	}
 }
 
 #sosmed
