@@ -6,7 +6,7 @@
 		
 		// content ratio
 		var rx = 340;
-		var ry = 420;
+		var ry = 400;
 
 		// circle diameter ratio
 		var cr = 100; 
