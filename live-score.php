@@ -1,8 +1,6 @@
 <html>
 <head>
 <title>Live Score - Escalades Revinesia</title>
-<link rel="stylesheet" type="text/css" href="css/home.css">
-<link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/layout.css">
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/style-home.css">
@@ -15,12 +13,27 @@
     </div>
     <div class="sixteen columns">
     	<?php
-			$con = mysql_connect("localhost", "k9539147_esc", "revitalisasi") or die ('error1');
-			$db_selected = mysql_select_db("k9539147_esc",$con);
+			$con = mysql_connect("localhost", "root", "") or die ('error_user');
+			$db_selected = mysql_select_db("k9539147_esc",$con) or die ('error_db');
 			$sql = "SELECT * from basket";
-			$result = mysql_query($sql,$con);
+			$result = mysql_query($sql,$con) or die ('query_error');
 			$data=mysql_fetch_row($result);			
     	?>
+        <h2 class="tagline" align="center">Basket</h2>
+        <table>
+        	<tr>
+            	<td><h3 class="tagline">awdasd<?    ?></h2></td>
+                <td><h1 class="tagline"><?    ?></h1></td>
+                <td><h1 class="tagline"><?    ?></h1></td>
+                <td><h3 class="tagline"><?    ?></h2></td>
+            </tr>
+            <tr>
+            	<td><h3 class="tagline"><?    ?></h2></td>
+                <td><h1 class="tagline"><?    ?></h1></td>
+                <td><h1 class="tagline"><?    ?></h1></td>
+                <td><h3 class="tagline"><?    ?></h2></td>
+            </tr>
+       	</table>
     </div>
 </div>
 </body>

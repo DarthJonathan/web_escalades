@@ -17,7 +17,7 @@
 			}
 			else {
 				$(".container").animate({  
-					left: 294
+					opacity:1
 				}, {
 					duration : 300
 				});
