@@ -86,9 +86,27 @@ body
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-play-state: running;
 	-webkit-animation-fill-mode:forwards;
+	-moz-animation:zoom-out;
+	-moz-animation-duration:1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode:forwards;
+	animation:zoom-out;
+	animation-duration:1s;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	animation-fill-mode:forwards;
 	width : 7%;
 	display : block;
 	margin : 0 auto;
+}
+
+@media (max-width:768px)
+{
+	#logo-esc
+	{
+		width:16%
+	}
 }
 
 #logo-rev
@@ -99,10 +117,30 @@ body
 	-webkit-animation-play-state: running;
 	-webkit-animation-delay:0.4s;
 	-webkit-animation-fill-mode:forwards;
+	-moz-animation:zoom-out;
+	-moz-animation-duration:1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode:forwards;
+	-moz-animation-delay:0.4s;
+	animation:zoom-out;
+	animation-duration:1s;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	animation-fill-mode:forwards;
+	animation-delay:0.4s;
 	width : 45%;
 	display : block;
 	margin : 0 auto;
 	margin-top : -5%;
+}
+
+@media (max-width:768px)
+{
+	#logo-rev
+	{
+		width:75%;
+	}
 }
 
 #sosmed
@@ -111,10 +149,18 @@ body
 	opacity:1;
 	text-align:center;
 	display : block;
+	margin-left:-40px;
 }
 
 #sosmed  img{
 	width : 5%;
+}
+
+@media (max-width:768px)
+{
+	#sosmed  img{
+	width : 10%;
+}
 }
 
 #sosmed img:hover
@@ -240,7 +286,7 @@ h4
 #page3
 {
 	width:100%;
-	height:100%;
+	height:120%;
 	background:#ccc;
 }
 
@@ -261,7 +307,14 @@ tgl
 #page4
 {
 	width:100%;
-	height:110%;
+	height:160%;
+}
+
+#video_youtube
+{
+	width:70%;
+	text-align:center;
+	margin:0 auto;
 }
 
 
