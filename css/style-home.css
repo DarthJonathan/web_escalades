@@ -86,9 +86,31 @@ body
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-play-state: running;
 	-webkit-animation-fill-mode:forwards;
+	-moz-animation:zoom-out;
+	-moz-animation-duration:1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode:forwards;
+	animation:zoom-out;
+	animation-duration:1s;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	animation-fill-mode:forwards;
 	width : 7%;
 	display : block;
 	margin : 0 auto;
+}
+
+@media (max-width:690px)
+{
+	#logo-esc
+		{
+			width:12%
+		}
+	#logo-rev
+	{
+		width:65%;
+	}
 }
 
 #logo-rev
@@ -99,6 +121,18 @@ body
 	-webkit-animation-play-state: running;
 	-webkit-animation-delay:0.4s;
 	-webkit-animation-fill-mode:forwards;
+	-moz-animation:zoom-out;
+	-moz-animation-duration:1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode:forwards;
+	-moz-animation-delay:0.4s;
+	animation:zoom-out;
+	animation-duration:1s;
+	animation-timing-function: linear;
+	animation-play-state: running;
+	animation-fill-mode:forwards;
+	animation-delay:0.4s;
 	width : 45%;
 	display : block;
 	margin : 0 auto;
