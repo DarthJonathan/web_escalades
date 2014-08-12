@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.photostack-img
+{
+	text-align:center;
+}
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-family:"gothamL";}
