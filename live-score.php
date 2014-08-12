@@ -22,16 +22,16 @@
         <h2 class="tagline" align="center">Basket</h2>
         <table>
         	<tr>
-            	<td><h3 class="tagline">awdasd<?    ?></h2></td>
-                <td><h1 class="tagline"><?    ?></h1></td>
-                <td><h1 class="tagline"><?    ?></h1></td>
-                <td><h3 class="tagline"><?    ?></h2></td>
+            	<td><h3 class="tagline"><? $data[1]  ?></h2></td>
+                <td><h1 class="tagline"><?  $data[3]  ?></h1></td>
+                <td><h1 class="tagline"><?  $data[4]  ?></h1></td>
+                <td><h3 class="tagline"><?  $data[2]  ?></h2></td>
             </tr>
             <tr>
-            	<td><h3 class="tagline"><?    ?></h2></td>
-                <td><h1 class="tagline"><?    ?></h1></td>
-                <td><h1 class="tagline"><?    ?></h1></td>
-                <td><h3 class="tagline"><?    ?></h2></td>
+            	<td><h3 class="tagline"><?  $data[1]  ?></h2></td>
+                <td><h1 class="tagline"><?  $data[3]  ?></h1></td>
+                <td><h1 class="tagline"><?  $data[4]  ?></h1></td>
+                <td><h3 class="tagline"><?  $data[2]  ?></h2></td>
             </tr>
        	</table>
     </div>
