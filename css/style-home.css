@@ -200,7 +200,6 @@ body
 #page1 {
 	background:#333;
 	height : 100%;
-	z-index : -100;
 }
 
 /* Page 2 */
