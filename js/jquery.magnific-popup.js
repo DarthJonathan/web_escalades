@@ -1,4 +1,4 @@
-/*! Magnific Popup - v0.9.9 - 2013-12-27
+ /*! Magnific Popup - v0.9.9 - 2013-12-27
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2013 Dmitry Semenov; */
 ;(function($) {
@@ -1607,7 +1607,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 			youtube: {
 				index: 'youtube.com', 
 				id: 'v=', 
-				src: '//www.youtube.com/embed/%id%?autoplay=1'
+				src: 'http://www.youtube.com/embed/%id%?autoplay=1'
 			},
 			vimeo: {
 				index: 'vimeo.com/',
