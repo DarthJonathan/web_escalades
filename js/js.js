@@ -35,4 +35,12 @@ $(document).ready(function ($) {
 	});
 	
 	adjustScreen();
+	
+	$('#youtube').magnificPopup({
+		items:
+		{
+		type:'inline',
+		src:'<div class="white-popup">Path Kami : Escalades Revinesia</div>'
+		}
+		});
 })
