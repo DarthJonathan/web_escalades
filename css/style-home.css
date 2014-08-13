@@ -338,6 +338,15 @@ tgl
 	height:120%;
 }
 
+#warung .item{
+  margin: 3px;
+}
+#warung .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Page 6 */
 
 #page6
