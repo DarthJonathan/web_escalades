@@ -113,7 +113,7 @@ body
 	margin : 0 auto;
 }
 
-@media (max-width:768px)
+@media only screen and (max-width:768px)
 {
 	#logo-esc
 	{
@@ -147,7 +147,7 @@ body
 	margin-top : -5%;
 }
 
-@media (max-width:768px)
+@media only screen and (max-width:768px)
 {
 	#logo-rev
 	{
@@ -168,7 +168,7 @@ body
 	width : 6%;
 }
 
-@media (max-width:768px)
+@media only screen and (max-width:768px)
 {
 	#sosmed  img{
 	width : 10%;
