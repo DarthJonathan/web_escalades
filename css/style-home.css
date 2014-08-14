@@ -229,6 +229,10 @@ body
 
 }
 
+#page2_title {
+	color : #57173B;
+}
+
 .circle_button_space {		
 	float : left;
 }
@@ -242,14 +246,14 @@ body
 	text-align : center;
 	vertical-align : middle;
 
-	background : #FF0000;
+	background : #57173B;
 	border : 1px solid white;
 }
 
 .circle_button:hover {
 	background : white;
-	border : 1px solid red;
-	color : red;
+	border : 1px solid #57173B;
+	color : #57173B;
 }
 
 #page2_container {
