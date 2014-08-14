@@ -24,7 +24,7 @@ $(function(){
 $(document).ready(function ($) {
 
 
-    	if(!Modernizr.touch && window.innerWidth <= 768)
+    	if( window.innerWidth <= 768)
     	{
             $.stellar("destroy");
         }
