@@ -250,6 +250,11 @@ body
 	border : 1px solid white;
 }
 
+.circle_button:nth-child(1) {
+	background:url(../gallery/images/7.jpg);
+	
+}
+
 .circle_button:hover {
 	background : white;
 	border : 1px solid #57173B;
