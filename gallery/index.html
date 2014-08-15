@@ -3,8 +3,26 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Gallery Escalades</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="js/galleria-1.4.2.min.js"></script>
+<style>
+	body { padding:0; margin:0; }
+    .galleria{ width: 100%; height: 100%; background: #000 }
+</style>
 </head>
 <body>
-
+<div class="galleria">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+    <img src="images/4.jpg">
+    <img src="images/5.jpg">
+    <img src="images/6.jpg">
+</div>
+<script>
+    Galleria.loadTheme('js/themes/classic/galleria.classic.min.js');
+	Galleria.run('.galleria');
+</script>
 </body>
 </html>
