@@ -5,7 +5,7 @@
 		
 		
 		// content ratio
-		var rx = 340;
+		var rx = 350;
 		var ry = 400;
 
 		// circle diameter ratio
@@ -27,7 +27,7 @@
 		var cwidth = rx * scale;
 		var cheight = ry * scale;
 		var ccircle = cwidth * cr / rx;
-		var cspace = cwidth * 5 / rx;
+		var cspace = cwidth * 3 / rx;
 
 		c.css({
 			width : cwidth,
@@ -42,7 +42,8 @@
 		});
 		
 		$(".circle_button_space").css({
-			margin : cspace
+			margin : cspace,
+			borderRadius : ccircle / 2
 		});
 		
 		$("#page2_title").css({

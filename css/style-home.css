@@ -234,6 +234,7 @@ body
 }
 
 .circle_button_space {		
+	border : 2px dashed black;
 	float : left;
 }
 
@@ -247,18 +248,53 @@ body
 	vertical-align : middle;
 
 	background : #57173B;
-	border : 1px solid white;
+	opacity : 0;
 }
 
-.circle_button:nth-child(1) {
+div#page2_container div:nth-child(2) {
+	background:url(../gallery/images/1.jpg);
+}
+
+div#page2_container div:nth-child(3) {
+	background:url(../gallery/images/2.jpg);
+}
+
+div#page2_container div:nth-child(4) {
+	background:url(../gallery/images/3.jpg);
+}
+
+div#page2_container div:nth-child(5) {
+	background:url(../gallery/images/4.jpg);
+}
+
+div#page2_container div:nth-child(6) {
+	background:url(../gallery/images/5.jpg);
+}
+
+div#page2_container div:nth-child(7) {
+	background:url(../gallery/images/6.jpg);
+}
+
+div#page2_container div:nth-child(8) {
 	background:url(../gallery/images/7.jpg);
-	
+}
+
+div#page2_container div:nth-child(9) {
+	background:url(../gallery/images/8.jpg);
+}
+
+div#page2_container div:nth-child(10) {
+	background:url(../gallery/images/9.jpg);
+}
+
+.circle_button_space:hover {
+	border : 2px solid #57173B;
 }
 
 .circle_button:hover {
 	background : white;
-	border : 1px solid #57173B;
 	color : #57173B;
+	opacity : 1;
 }
 
 #page2_container {
