@@ -62,7 +62,7 @@
 
 
 
-/*begin css*/
+/*Global*/
 
 body
 {
@@ -71,6 +71,14 @@ body
 	background:F5F5F5;
 	font-family : "gothamT", Calibri, "Segoe UI";
 	overflow-x:hidden;
+}
+
+	/* Fix For Stupid Mobile Browsers Font Doubling*/
+h1, h2, h3, h4, h5, h6 
+{
+
+font-weight: normal;
+
 }
 
 /*Page 1*/
