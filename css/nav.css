@@ -28,6 +28,16 @@ nav#slide-menu {
   transition: all 300ms;
   font: 18px/27px 'Oxygen', sans-serif;
 }
+
+@media (max-width:690px)
+{
+	nav#slide-menu 
+	{
+		max-width:224px;
+	}
+	
+}
+
 nav#slide-menu > ul {
   display: block;
   margin: 40px;
@@ -154,6 +164,14 @@ body.menu-active div#content .menu-trigger {
 	-webkit-transition: all 300ms;
 	transition: all 300ms;
 	left: 294px;
+}
+
+@media (max-width:690px)
+{
+	body.menu-active div#content .menu-trigger 
+	{
+		left: 234px;
+	}
 }
 
 #wrapper
