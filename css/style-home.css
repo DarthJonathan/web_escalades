@@ -128,7 +128,18 @@ p
 {
 	#logo-esc
 	{
-		width:16%
+		width:14%;
+		margin-bottom:-4em;
+	}
+}
+
+
+@media only screen and (max-width:480px)
+{
+	#logo-esc
+	{
+		width:14%;
+		margin-bottom:-3em;
 	}
 }
 
