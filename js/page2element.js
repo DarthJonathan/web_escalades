@@ -52,6 +52,7 @@
 			marginTop : ccircle /6
 		});
 	};
+	
 
 	$(window).on('resize', adjustPage2Element );
 	adjustPage2Element();
