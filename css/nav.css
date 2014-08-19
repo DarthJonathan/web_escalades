@@ -74,19 +74,22 @@ nav#slide-menu > ul li:before {
 }
 
 nav#slide-menu > ul li.timeline:before {
-  content: '\e805';
-}
-nav#slide-menu > ul li.events:before {
-  content: '\e802';
-}
-nav#slide-menu > ul li.calendar:before {
   content: '\e800';
 }
-nav#slide-menu > ul li.settings:before {
+nav#slide-menu > ul li.events:before {
   content: '\e803';
 }
+nav#slide-menu > ul li.calendar:before {
+  content: '\e806';
+}
+nav#slide-menu > ul li.settings:before {
+  content: '\e801';
+}
 nav#slide-menu > ul li.logout:before {
-  content: '\e804';
+  content: '\e805';
+}
+nav#slide-menu > ul li.blabla:before {
+  content: '\e802';
 }
 
 body.menu-active nav#slide-menu {
@@ -135,7 +138,7 @@ div#content div.menu-trigger {
 
 div#content div.menu-trigger:before {
   z-index:10000;
-  content: '\e801';
+  content: '\e804';
   display: inline-block;
   width: 50px;
   height: 50px;
