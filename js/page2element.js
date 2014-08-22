@@ -1,8 +1,14 @@
 (function(){
+	var last_gw = 0;
+	var last_gh = 0;
+	
 	function adjustPage2Element(){
 		var gw = Math.min( window.innerWidth, $("#page2format").width() );
 		var gh = window.innerHeight;
 		
+		if( last_gw == gw && last_gh == gh ){
+			return;
+		}
 		
 		// content ratio
 		var rx = 350;
