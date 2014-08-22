@@ -11,7 +11,7 @@
 		}
 		
 		// content ratio
-		var rx = 350;
+		var rx = 330;
 		var ry = 400;
 
 		// circle diameter ratio
