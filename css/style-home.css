@@ -399,6 +399,14 @@ tgl
 	top:10%;
 }
 
+@media (max-width:769px)
+{
+	.tagline
+	{
+		text-align:center;
+	}
+}
+
 /* Page 4 */
 
 #page4
