@@ -38,7 +38,7 @@ $(document).ready(function ($) {
                     positionProperty: 'transform',
                     parallaxBackgrounds: false,
                     parallaxElements: true,
-                    responsive: false,
+                    responsive: true,
                     hideDistantElements: false
                 });
 
