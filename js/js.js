@@ -63,9 +63,9 @@ $(document).ready(function ($) {
                 $.stellar("destroy");
         }
 		
-		if(window.innerWidth <= 768)
+		if(window.innerWidth <= 500)
 		{
-			$.removeClass("bg_3")
+			$("div").removeClass("bg_3")
 		}
 		
 	adjustScreen();
