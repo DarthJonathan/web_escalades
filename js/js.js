@@ -43,7 +43,27 @@ $(document).ready(function ($) {
                 });
 
         }
-	
+		
+		if(Modernizr.touch == 'true')
+		{
+			$.stellar("destroy");
+        }
+        else
+        {
+                $.stellar({
+                
+                    horizontalScrolling: false,
+                    verticalScrolling: true,
+                    scrollProperty: 'scroll',
+                    positionProperty: 'transform',
+                    parallaxBackgrounds: false,
+                    parallaxElements: true,
+                    responsive: true,
+                    hideDistantElements: false
+                });
+
+        }
+		
 	adjustScreen();
 	
 	$('#youtube').magnificPopup({
