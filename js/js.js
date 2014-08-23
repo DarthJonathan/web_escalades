@@ -24,7 +24,7 @@ $(function(){
 $(document).ready(function ($) {
 
 
-    	if(window.innerWidth <= 768)
+    	if(window.innerWidth <= 768 || Modernizr.touch)
     	{
             $.stellar("destroy");
         }
@@ -42,25 +42,6 @@ $(document).ready(function ($) {
                     hideDistantElements: false
                 });
 
-        }
-		
-		if(!Modernizr.touch)
-		{
-			$.stellar({
-                
-                    horizontalScrolling: false,
-                    verticalScrolling: true,
-                    scrollProperty: 'scroll',
-                    positionProperty: 'transform',
-                    parallaxBackgrounds: false,
-                    parallaxElements: true,
-                    responsive: true,
-                    hideDistantElements: false
-                });
-        }
-        else
-        {
-                $.stellar("destroy");
         }
 		
 		if(window.innerWidth <= 500)
