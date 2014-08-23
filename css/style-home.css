@@ -277,47 +277,47 @@ p
 }
 
 div#page2_container div:nth-child(2) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/umum.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(3) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/futsal.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(4) {
-	background:url(../images/pg2/vg.jpg);
+	background:url(../images/pg2/basket.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(5) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/vg.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(6) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/md.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(7) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/catur.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(8) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/band.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(9) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/paskib.jpg);
 	background-size : 100%;
 }
 
 div#page2_container div:nth-child(10) {
-	background:url(../images/pg2/basket.jpg);
+	background:url(../images/pg2/st.jpg);
 	background-size : 100%;
 }
 
@@ -390,6 +390,13 @@ tgl
 	border-bottom-right-radius:1px;
 	border-bottom-width:1px;
 	border-color:#ffffff;
+}
+
+#bg_3
+{
+	position:absolute;
+	z-index:-100;
+	top:10%;
 }
 
 /* Page 4 */
