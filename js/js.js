@@ -44,13 +44,9 @@ $(document).ready(function ($) {
 
         }
 		
-		if(Modernizr.touch == 'true')
+		if(!Modernizr.touch)
 		{
-			$.stellar("destroy");
-        }
-        else
-        {
-                $.stellar({
+			$.stellar({
                 
                     horizontalScrolling: false,
                     verticalScrolling: true,
@@ -61,7 +57,10 @@ $(document).ready(function ($) {
                     responsive: true,
                     hideDistantElements: false
                 });
-
+        }
+        else
+        {
+                $.stellar("destroy");
         }
 		
 	adjustScreen();
