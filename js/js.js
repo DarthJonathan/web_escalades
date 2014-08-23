@@ -24,7 +24,7 @@ $(function(){
 $(document).ready(function ($) {
 
 
-    	if( window.innerWidth <= 768)
+    	if(window.innerWidth <= 768)
     	{
             $.stellar("destroy");
         }
@@ -59,6 +59,5 @@ $(document).ready(function ($) {
     navigation : true
   	}); 
 	
-	alert( window.innerWidth)
 })
 
