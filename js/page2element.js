@@ -38,7 +38,7 @@
 			width : ccircle,
 			height : ccircle,
 			borderRadius : ccircle / 2,
-			fontSize : ccircle / 8
+			fontSize : '1.2em'
 		});
 		
 		$(".circle_button_space").css({
@@ -46,7 +46,9 @@
 		});
 		
 		$("#page2_title").css({
-			fontSize : ccircle/5
+			fontSize : ccircle/3,
+			marginBottom : ccircle/12,
+			marginTop : ccircle /6
 		});
 	};
 
