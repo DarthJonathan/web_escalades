@@ -33,7 +33,7 @@
 		var cwidth = rx * scale;
 		var cheight = ry * scale;
 		var ccircle = cwidth * cr / rx;
-		var cspace = cwidth * 3 / rx;
+		var cspace = cwidth * 2 / rx;
 
 		c.css({
 			width : cwidth,
