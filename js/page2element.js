@@ -38,7 +38,7 @@
 			width : ccircle,
 			height : ccircle,
 			borderRadius : ccircle / 2,
-			fontSize : ccircle / 10
+			fontSize : ccircle / 8
 		});
 		
 		$(".circle_button_space").css({
