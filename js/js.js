@@ -63,6 +63,11 @@ $(document).ready(function ($) {
                 $.stellar("destroy");
         }
 		
+		if(window.innerWidth <= 768)
+		{
+			$.removeClass("bg_3")
+		}
+		
 	adjustScreen();
 	
 	$('#youtube').magnificPopup({
