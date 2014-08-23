@@ -185,13 +185,20 @@
             	<img src="images/page_3_1.png" class="layer" data-depth="0.20">
             </div>
 		<script>
-		function adjustPage3(){
-			$("#page3").css({
-				height : $("#page3content").height() + 220
-			});
-		}
-		$(window).on('resize', adjustPage3 );
-		adjustPage3();
+		(function(){
+			var lastHeight = 0;
+			function adjustPage3(){
+				var cheight = $("#page3content").height() + 220;
+				
+				if( lastHeight == cheight ) return;
+				
+				$("#page3").css({
+					height : cheight
+				});
+			}
+			$(window).on('resize', adjustPage3 );
+			adjustPage3();
+		}).call( this );
 		</script>
     </section> 
     
