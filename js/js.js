@@ -20,19 +20,29 @@ $(function(){
 });
 
 
+
 $(document).ready(function ($) {
 
-	$.stellar(
-	{
-	horizontalScrolling: false,
-    verticalScrolling: true,
-    scrollProperty: 'scroll',
-    positionProperty: 'transform',
-    parallaxBackgrounds: false,
-    parallaxElements: true,
-    responsive: true,
-    hideDistantElements: false
-	});
+
+    	if(!Modernizr.touch && $(window).width() <= 768)
+    	{
+            $.stellar("destroy");
+        }
+        else
+        {
+                $.stellar({
+                
+                    horizontalScrolling: false,
+                    verticalScrolling: true,
+                    scrollProperty: 'scroll',
+                    positionProperty: 'transform',
+                    parallaxBackgrounds: false,
+                    parallaxElements: true,
+                    responsive: false,
+                    hideDistantElements: false
+                });
+
+        }
 	
 	adjustScreen();
 	
@@ -50,3 +60,4 @@ $(document).ready(function ($) {
     navigation : true
   	}); 
 })
+
