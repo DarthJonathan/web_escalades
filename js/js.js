@@ -24,7 +24,7 @@ $(function(){
 $(document).ready(function ($) {
 
 
-    	if(!Modernizr.touch && $(window).width() <= 768)
+    	if( window.innerWidth <= 768)
     	{
             $.stellar("destroy");
         }
@@ -56,8 +56,9 @@ $(document).ready(function ($) {
 	
 	$("#warung").owlCarousel({
     items : 4,
-    lazyLoad : true,
     navigation : true
   	}); 
+	
+	alert( window.innerWidth)
 })
 
