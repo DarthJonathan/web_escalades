@@ -93,6 +93,16 @@ p
 	margin-left:-50px;
 }
 
+.arrow
+{
+	-webkit-transform:translateY(0);
+}
+
+.arrow:hover
+{
+	-webkit-transform:translateY(10px);
+}
+
 /*Page 1*/
 
 #page1, #page2, #page3
@@ -404,7 +414,7 @@ tgl
 .bg_3
 {
 	position:absolute;
-	z-index:-100;
+	z-index:-1000;
 	top:10%;
 	left:1em;
 }
