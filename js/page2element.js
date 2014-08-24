@@ -59,7 +59,9 @@
 		});
 	};
 	
+	if( !Modernizr.touch ){
+		$(window).on('resize', adjustPage2Element );
+	}
 
-	$(window).on('resize', adjustPage2Element );
 	adjustPage2Element();
 }).call( this );

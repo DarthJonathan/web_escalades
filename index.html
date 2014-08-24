@@ -198,7 +198,11 @@
 					height : cheight
 				});
 			}
-			$(window).on('resize', adjustPage3 );
+
+			if( !Modernizr.touch ){
+				$(window).on('resize', adjustPage3 );
+			}
+			
 			adjustPage3();
 		}).call( this );
 		</script>
