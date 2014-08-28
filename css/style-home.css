@@ -255,7 +255,7 @@ p
 {
 	background-color : white; 
 	width:100%;
-	height:100%;
+	height:130%;
 	z-index : 16;
 }
 
@@ -344,6 +344,11 @@ div#page2_container div:nth-child(9) {
 
 div#page2_container div:nth-child(10) {
 	background:url(../images/pg2/st.jpg);
+	background-size : 100%;
+}
+
+div#page2_container div:nth-child(11) {
+	background:url(../images/pg2/mural.jpg);
 	background-size : 100%;
 }
 
@@ -463,7 +468,7 @@ tgl
 #page5
 {
 	width:100%;
-	height:120%;
+	height:40%;
 }
 
 #warung .item{
