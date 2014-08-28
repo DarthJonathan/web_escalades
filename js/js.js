@@ -60,9 +60,10 @@ $(document).ready(function ($) {
 		});
 	
 	$("#warung").owlCarousel({
-    items : 4,
+    items : 3,
+    lazyLoad : true,
     navigation : true
-  	}); 
+  }); 
 	
 })
 
