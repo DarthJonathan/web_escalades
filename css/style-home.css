@@ -408,7 +408,13 @@ h4
 {
 	width:100%;
 	height:120%;
-	background:#ccc;
+	background:#3d4f65;
+	color:#fff;
+}
+
+.pg3
+{
+	color:#fff;
 }
 
 tgl
@@ -427,8 +433,16 @@ tgl
 {
 	position:absolute;
 	z-index:-1000;
-	top:10%;
+	top:-15%;
 	left:1em;
+}
+
+@media (max-width:769px)
+{
+	.bg_3
+	{
+		display:none;
+	}
 }
 
 #sosmed_link {
@@ -441,6 +455,7 @@ tgl
 	{
 		text-align:center;
 	}
+
 }
 
 /* Page 4 */
@@ -468,7 +483,7 @@ tgl
 #page5
 {
 	width:100%;
-	height:40%;
+	height:90%;
 }
 
 #warung .item{
