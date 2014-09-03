@@ -434,7 +434,7 @@ tgl
 	position:absolute;
 	z-index:-1000;
 	top:-15%;
-	left:1em;
+	right : -8em;
 }
 
 @media (max-width:769px)
