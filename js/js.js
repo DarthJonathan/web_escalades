@@ -71,7 +71,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=10'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=6'
 		}
 		});
 		
@@ -79,7 +79,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=32'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=11'
 		}
 		});
 		
@@ -87,7 +87,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=7'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=9'
 		}
 		});
 		
@@ -119,7 +119,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=23'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=19'
 		}
 		});
 		
@@ -127,7 +127,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=25'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=17'
 		}
 		});
 		
@@ -135,7 +135,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=28'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=13'
 		}
 		});
 		
@@ -143,7 +143,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=30'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=15'
 		}
 		});
 		
