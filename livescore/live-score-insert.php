@@ -48,6 +48,9 @@ if( $verdict ){
 ?>
 
 <html>
+<head>
+<title>Input Live Score Escalades</title>
+</head>
 <body>
 
 <hr noshade>
