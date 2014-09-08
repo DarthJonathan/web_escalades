@@ -95,7 +95,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=12'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=30'
 		}
 		});
 		
@@ -103,7 +103,7 @@ $(document).ready(function ($) {
 		items:
 		{
 		type:'iframe',
-		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=14'
+		src:'http://www.osissmak5penaburjakarta.com/escalades/wp/?p=24'
 		}
 		});
 		
