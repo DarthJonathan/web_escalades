@@ -4,6 +4,8 @@ include('db_connect.php');
 <html>
 <head>
 <title>Live Score - Escalades Revinesia</title>
+<!-- Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="stylesheet" href="../css/layout.css">
 <link rel="stylesheet" href="../css/skeleton.css">
 <link rel="stylesheet" href="../css/style-home.css">
