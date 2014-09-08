@@ -505,12 +505,18 @@ tgl
 
 /*live - score*/
 
-.score
+@media (max-width:1000px)
 {
-	padding-right:.5em;
+	.num
+	{
+		font-size:3em;
+	}
+}
+@media (min-width:1001px) 
+{
+	.num
+	{
+		font-size:4em;
+	}
 }
 
-.num
-{
-	font-size:4em;
-}

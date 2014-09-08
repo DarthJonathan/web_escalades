@@ -21,13 +21,13 @@ include('db_connect.php');
 			$data=mysql_fetch_row($result);			
 		?>
 		<h2 class="score" align=center>Basket</h2>
-		<table colspan=0 cellspacing=0 border=0 align=center>
+		<table colspan=0 cellspacing=0 border=0 align=center width=100%>
 			<tr>
-			<td><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td><h1 class="score num"><? echo $data[3];  ?></h1></td>
-			<td><h2 class="score">vs</h2></td>
-			<td><h1 class="score num"><? echo $data[4];  ?></h1></td>
-			<td><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
+			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
+			<td align=center><h2 class="score">vs</h2></td>
+			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
+			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
 			</tr>
 		</table>
 	</div>
@@ -38,13 +38,13 @@ include('db_connect.php');
 			$data = mysql_fetch_row($result);			
 		?>
 		<h2 class="score" align="center">Catur</h2>
-		<table colspan=0 cellspacing=0 border=0 align=center>
+		<table colspan=0 cellspacing=0 border=0 align=center width=100%>
 			<tr>
-			<td><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td><h1 class="score num"><? echo $data[3];  ?></h1></td>
-			<td><h2 class="score">vs</h2></td>
-			<td><h1 class="score num"><? echo $data[4];  ?></h1></td>
-			<td><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
+			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
+			<td align=center><h2 class="score">vs</h2></td>
+			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
+			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
 			</tr>
 		</table>
 	</div>
@@ -55,13 +55,13 @@ include('db_connect.php');
 			$data=mysql_fetch_row($result);			
 		?>
 		<h2 class="score" align="center">Futsal</h2>
-		<table colspan=0 cellspacing=0 border=0 align=center>
+		<table colspan=0 cellspacing=0 border=0 align=center width=100%>
 			<tr>
-			<td><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td><h1 class="score num"><? echo $data[3];  ?></h1></td>
-			<td><h2 class="score">vs</h2></td>
-			<td><h1 class="score num"><? echo $data[4];  ?></h1></td>
-			<td><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
+			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
+			<td align=center><h2 class="score">vs</h2></td>
+			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
+			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
 			</tr>
 		</table>
 	</div>
@@ -72,13 +72,13 @@ include('db_connect.php');
 			$data=mysql_fetch_row($result);			
 		?>
 		<h2 class="score" align="center">Jadwal Pertandingan</h2>
-		<table colspan=0 cellspacing=0 border=0 align=center>
+		<table colspan=0 cellspacing=0 border=0 align=center width=100%>
 			<tr>
-			<td><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td><h1 class="score num"><? echo $data[3];  ?></h1></td>
-			<td><h2 class="score">vs</h2></td>
-			<td><h1 class="score num"><? echo $data[4];  ?></h1></td>
-			<td><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
+			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
+			<td align=center><h2 class="score">vs</h2></td>
+			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
+			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
 			</tr>
 		</table>
 	</div>
