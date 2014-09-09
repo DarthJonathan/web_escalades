@@ -74,12 +74,12 @@ table
             <td><h3 class="score">Keterangan</h3></td>
             </tr>
 			<tr>
-			<td width=20%><h3 class="score"><? echo $data[0];  ?></h3></td>
-			<td width=25%><h3 class="score"><? echo $data[1];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
 			<td width=25%><h3 class="score"><? echo $data[2];  ?></h3></td>
-			<td width=20%><h3 class="score"><? echo $data[3];  ?></h3></td>
+			<td width=25%><h3 class="score"><? echo $data[3];  ?></h3></td>
 			<td width=20%><h3 class="score"><? echo $data[4];  ?></h3></td>
 			<td width=20%><h3 class="score"><? echo $data[5];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[6];  ?></h3></td>
 			</tr>
 		</table>
 	</div>
