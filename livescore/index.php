@@ -10,6 +10,13 @@ include('db_connect.php');
 <link rel="stylesheet" href="../css/skeleton.css">
 <link rel="stylesheet" href="../css/style-home.css">
 <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+<style>
+table
+{
+	text-align:center;
+	vertical-align:middle;
+}
+</style>
 </head>
 <body>
 <div class="container">
@@ -26,26 +33,9 @@ include('db_connect.php');
 		<table colspan=0 cellspacing=0 border=0 align=center width=80%>
 			<tr>
 			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
+			<td width=25% align=right bgcolor="#000000"><h1 align="center" class="score num"><? echo $data[3];  ?></h1></td>
 			<td align=center><h2 class="score">vs</h2></td>
-			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
-			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
-			</tr>
-		</table>
-	</div>
-	<div class="sixteen columns">
-		<?php
-			$sql = "SELECT * FROM catur ORDER BY id DESC LIMIT 1";
-			$result = mysql_query($sql,$con) or die ('query_error');
-			$data = mysql_fetch_row($result);			
-		?>
-		<h2 class="score" align="center">Catur</h2>
-		<table colspan=0 cellspacing=0 border=0 align=center width=80%>
-			<tr>
-			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
-			<td align=center><h2 class="score">vs</h2></td>
-			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
+			<td width=25% bgcolor="#000000"><h1 class="score num"><? echo $data[4];  ?></h1></td>
 			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
 			</tr>
 		</table>
@@ -60,9 +50,9 @@ include('db_connect.php');
 		<table colspan=0 cellspacing=0 border=0 align=center width=80%>
 			<tr>
 			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
+			<td width=25% align=right bgcolor="#000000"><h1 align="center" class="score num"><? echo $data[3];  ?></h1></td>
 			<td align=center><h2 class="score">vs</h2></td>
-			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
+			<td width=25% bgcolor="#000000"><h1 class="score num"><? echo $data[4];  ?></h1></td>
 			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
 			</tr>
 		</table>

@@ -510,6 +510,7 @@ tgl
 	.num
 	{
 		font-size:3em;
+		color:white;
 	}
 }
 @media (min-width:1001px) 
@@ -517,6 +518,7 @@ tgl
 	.num
 	{
 		font-size:4em;
+		color:white;
 	}
 }
 
