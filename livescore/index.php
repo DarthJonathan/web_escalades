@@ -58,11 +58,6 @@ table
 		</table>
 	</div>
     <div class="sixteen columns">
-		<?php
-			$sql = "SELECT * FROM jadwal ORDER BY id DESC LIMIT 1";
-			$result = mysql_query($sql,$con) or die ('query_error');
-			$data=mysql_fetch_row($result);			
-		?>
 		<h2 class="score" align="center">Jadwal Pertandingan</h2>
 		<table colspan=0 cellspacing=0 border=0 align=center width=80%>
         	<tr>
@@ -73,6 +68,11 @@ table
             <td><h3 class="score">Sekolah</h3></td>
             <td><h3 class="score">Keterangan</h3></td>
             </tr>
+		<?php
+			$sql = "SELECT * FROM jadwal ORDER BY id DESC LIMIT 10";
+			$result = mysql_query($sql,$con) or die ('query_error');
+			while( $data=mysql_fetch_row($result) ){
+		?>
 			<tr>
 			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
 			<td width=25%><h3 class="score"><? echo $data[2];  ?></h3></td>
@@ -81,6 +81,9 @@ table
 			<td width=20%><h3 class="score"><? echo $data[5];  ?></h3></td>
 			<td width=20%><h3 class="score"><? echo $data[6];  ?></h3></td>
 			</tr>
+		<?
+		 }
+		?>
 		</table>
 	</div>
 </div>
