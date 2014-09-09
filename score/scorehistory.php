@@ -1,5 +1,5 @@
 <?php
-include('db_connect.php');
+include('../livescore/db_connect.php');
 ?>
 <html>
 <head>
@@ -10,25 +10,60 @@ include('db_connect.php');
 <link rel="stylesheet" href="../css/skeleton.css">
 <link rel="stylesheet" href="../css/style-home.css">
 <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+<style>
+table
+{
+	text-align:center;
+}
+</style>
 </head>
 <body>
 <div class="container">
 	<div class="sixteen columns">
    	 	<?php
-			$sql = "SELECT * FROM history_futsal ORDER BY id DESC LIMIT 10";
+			$sql = "SELECT * FROM futsal ORDER BY id DESC LIMIT 10";
 			$result = mysql_query($sql,$con) or die ('query_error');
 			$data = mysql_fetch_row($result);			
 		?>
     <h1 align="center" class="tagline">Futsal</h1>
-   	<table colspan=0 cellspacing=0 border=0 align=center width=100%>
+   	<table colspan=0 cellspacing=0 border=0.5 align=center width=80%>
+    		<tr>
+            <td><h3 class="score">Sekolah X</h3></td>
+            <td><h3 class="score">Sekolah Y</h3></td>
+            <td><h3 class="score">Score X</h3></td>
+            <td><h3 class="score">Score Y</h3></td>
+            </tr>
 			<tr>
-			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td width=25% align=right><h1 class="score num"><? echo $data[3];  ?></h1></td>
-			<td align=center><h2 class="score">vs</h2></td>
-			<td width=25%><h1 class="score num"><? echo $data[4];  ?></h1></td>
-			<td width=20%><h3 class="score" align=right><? echo $data[2];  ?></h3></td>
+			<td width=20%><h2 class="score"><? echo $data[1];  ?></h2></td>
+			<td width=20%><h2 class="score"><? echo $data[2];  ?></h2></td>
+			<td width=20%><h2 class="score"><? echo $data[3];  ?></h2></td>
+			<td width=20%><h2 class="score"><? echo $data[4];  ?></h2></td>
 			</tr>
 		</table>
+      </div>
+      
+      <div class="sixteen columns">
+   	 	<?php
+			$sql = "SELECT * FROM basket ORDER BY id DESC LIMIT 10";
+			$result = mysql_query($sql,$con) or die ('query_error');
+			$data = mysql_fetch_row($result);			
+		?>
+    <h1 align="center" class="tagline">Basket</h1>
+   	<table colspan=0 cellspacing=0 border=0.5 align=center width=80%>
+    		<tr>
+            <td><h3 class="score">Sekolah X</h3></td>
+            <td><h3 class="score">Sekolah Y</h3></td>
+            <td><h3 class="score">Score X</h3></td>
+            <td><h3 class="score">Score Y</h3></td>
+            </tr>
+			<tr>
+			<td width=20%><h2 class="score"><? echo $data[1];  ?></h2></td>
+			<td width=20%><h2 class="score"><? echo $data[2];  ?></h2></td>
+			<td width=20%><h2 class="score"><? echo $data[3];  ?></h2></td>
+			<td width=20%><h2 class="score"><? echo $data[4];  ?></h2></td>
+			</tr>
+		</table>
+      </div>
 </div>
 </body>
 </html>
