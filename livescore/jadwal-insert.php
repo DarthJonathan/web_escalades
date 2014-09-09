@@ -1,11 +1,8 @@
 <?php
 
 
-<<<<<<< HEAD
 $arr = array('lomba','jam','lokasi','sx','sy','ket');
-=======
-$arr = array('lomba','jam','lokasi','sx','sy','keterangan');
->>>>>>> origin/master
+
 
 
 $verdict = true;
@@ -40,22 +37,15 @@ if( $verdict ){
 	", $con );
 	
 	$query = "
-<<<<<<< HEAD
 		INSERT INTO jadwal ( lomba, jam, lokasi, sekolah_x, sekolah_y, keterangan )
-=======
-		INSERT INTO jadwal ( lomba, lokasi, jam, sekolahx, sekolahy, keterangan )
->>>>>>> origin/master
 		VALUES( 
 			'$lomba', 
 			'$lokasi', 
 			'$jam', 
 			'$sx', 
 			'$sy',
-<<<<<<< HEAD
-			'$ket' 
-=======
+			'$ket' ,
 			'$keterangan`'
->>>>>>> origin/master
 		);
 	";
 
@@ -87,12 +77,9 @@ if( $verdict ){
 	<br>
 	Sekolah Y : <input type=text name=sy maxlength=200 />
 	<br>
-<<<<<<< HEAD
     Keterangan : <input type=text name=ket maxlength=200 />
 	<br>
-=======
 	Keterangan : <input type=text name=keterangan maxlength=200 />
->>>>>>> origin/master
 	<input type=submit value=Insert />
 
 </form>
