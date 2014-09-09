@@ -1,7 +1,7 @@
 <?php
 
 
-$arr = array('lomba','jam','lokasi','sx','sy');
+$arr = array('lomba','jam','lokasi','sx','sy','keterangan');
 
 
 $verdict = true;
@@ -9,6 +9,7 @@ $verdict = true;
 for( $i = 0; $i < count( $arr ); ++ $i ){
 	if( !isset( $_POST[ $arr[ $i ] ] ) ) {
 		echo "ERR : one or more field is empty";
+		echo $arr[$i];
 		$verdict = false;
 		break;
 	}
@@ -29,18 +30,20 @@ if( $verdict ){
 	  `jam` varchar(200) NOT NULL,
 	  `sekolahx` varchar(200) NOT NULL,
 	  `sekolahy` varchar(200) NOT NULL,
+	  `keterangan` varchar(200) NOT NULL,
 	  PRIMARY KEY (`id`)
 	) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;
 	", $con );
 	
 	$query = "
-		INSERT INTO jadwal ( lomba, lokasi, jam, sekolahx, sekolahy )
+		INSERT INTO jadwal ( lomba, lokasi, jam, sekolahx, sekolahy, keterangan )
 		VALUES( 
 			'$lomba', 
 			'$lokasi', 
 			'$jam', 
 			'$sx', 
-			'$sy' 
+			'$sy',
+			'$keterangan`'
 		);
 	";
 
@@ -72,6 +75,7 @@ if( $verdict ){
 	<br>
 	Sekolah Y : <input type=text name=sy maxlength=200 />
 	<br>
+	Keterangan : <input type=text name=keterangan maxlength=200 />
 	<input type=submit value=Insert />
 
 </form>
