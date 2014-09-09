@@ -54,7 +54,7 @@ if( $verdict ){
 <body>
 
 <hr noshade>
-<form action=live-score-insert.php method=POST>
+<form action=insert.php method=POST>
 	Game :
 	<select name=game>
 		<option value=basket>Basket</option>

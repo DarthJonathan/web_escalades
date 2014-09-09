@@ -64,7 +64,7 @@ table
 			$data=mysql_fetch_row($result);			
 		?>
 		<h2 class="score" align="center">Jadwal Pertandingan</h2>
-		<table colspan=0 cellspacing=0 border=0 align=center width=80%>
+		<table colspan=0 cellspacing=0 border=0 align=center width=100%>
         	<tr>
             <td><h3 class="score">Lomba</h3></td>
             <td><h3 class="score">Jam</h3></td>
@@ -75,8 +75,8 @@ table
             </tr>
 			<tr>
 			<td width=20%><h3 class="score"><? echo $data[1];  ?></h3></td>
-			<td width=25%><h3 class="score"><? echo $data[2];  ?></h3></td>
-			<td width=25%><h3 class="score"><? echo $data[3];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[3];  ?></h3></td>
+			<td width=20%><h3 class="score"><? echo $data[2];  ?></h3></td>
 			<td width=20%><h3 class="score"><? echo $data[4];  ?></h3></td>
 			<td width=20%><h3 class="score"><? echo $data[5];  ?></h3></td>
 			<td width=20%><h3 class="score"><? echo $data[6];  ?></h3></td>

@@ -1,7 +1,7 @@
 <?php
 
 
-$arr = array('lomba','jam','lokasi','sx','sy');
+$arr = array('lomba','jam','lokasi','sx','sy','ket');
 
 
 $verdict = true;
@@ -34,13 +34,14 @@ if( $verdict ){
 	", $con );
 	
 	$query = "
-		INSERT INTO jadwal ( lomba, lokasi, jam, sekolahx, sekolahy )
+		INSERT INTO jadwal ( lomba, jam, lokasi, sekolah_x, sekolah_y, keterangan )
 		VALUES( 
 			'$lomba', 
 			'$lokasi', 
 			'$jam', 
 			'$sx', 
-			'$sy' 
+			'$sy',
+			'$ket' 
 		);
 	";
 
@@ -71,6 +72,8 @@ if( $verdict ){
 	Sekolah X : <input type=text name=sx maxlength=200 />
 	<br>
 	Sekolah Y : <input type=text name=sy maxlength=200 />
+	<br>
+    Keterangan : <input type=text name=ket maxlength=200 />
 	<br>
 	<input type=submit value=Insert />
 

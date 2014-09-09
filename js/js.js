@@ -19,7 +19,20 @@ $(function(){
 	});
 });
 
+(function($) {
+    $(window).load(function () {
+        // retrieved this line of code from http://dimsemenov.com/plugins/magnific-popup/documentation.html#api
+        $.magnificPopup.open({
+            items: {
+                src: 'http://osissmak5penaburjakarta.com/escalades/livescore'
+            },
+            type: 'iframe'
 
+          // You may add options here, they're exactly the same as for $.fn.magnificPopup call
+          // Note that some settings that rely on click event (like disableOn or midClick) will not work here
+        }, 0);
+    });
+})(jQuery);
 
 $(document).ready(function ($) {
 
