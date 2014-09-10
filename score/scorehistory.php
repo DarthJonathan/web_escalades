@@ -21,7 +21,7 @@ table
 <div class="container">
 	<div class="sixteen columns">
    	 	<?php
-			$sql = "SELECT * FROM futsal ORDER BY id DESC LIMIT 10";
+			$sql = "SELECT * FROM futsal";
 			$result = mysql_query($sql,$con) or die ('query_error');
 			$data = mysql_fetch_row($result);			
 		?>
